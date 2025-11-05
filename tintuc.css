@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: rgb(250, 138, 2);
+    padding: 20px;
+    margin: 3px;
+    border-radius: 4px;
+}
+.header{
+    background-color: rgb(41, 41, 41);
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding: 20px;
+}
+.menu{
+    background-color: rgb(250, 138, 2);
+}
+.menu{
+    background-color: rgb(11, 111, 224);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    padding: 15px;
+}
+nav ul li:hover{
+    background-color: white;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: rgb(11, 111, 224);
+    min-width: 180px;
+    flex-direction: column;
+    z-index: 100;
+}
+nav ul li:hover ul{
+    display: flex;
+}
+nav ul li ul li ul{
+    top: 0;
+    left: 100%;
+}
+.main{
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+img{
+    width: 1000px;
+    height: 800px;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.footer p{
+    margin: 0;
+}
